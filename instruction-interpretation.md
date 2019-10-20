@@ -30,7 +30,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | .L4: | | _Label (corresponds to the address of the first following instruction)_ |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r3, #0` | sets reg 3 to the value 0, then updates the flags register |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` | sets reg 0 to the value stored in reg 3, then updates the flags register |
-| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #12` | |
+| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #12` | add 12 to the stack pointer and set the stack pointer to the resultant value |
 | | [pop](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABIAJHJ.html)     `{pc}` |store the last value pushed onto the stack into the program counter  |
 
 ### Footnotes
