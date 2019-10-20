@@ -6,7 +6,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | --- | --- | --- |
 | negate: | | _Label (corresponds to the address of the first following instruction)_ |
 | | [sub](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #8` | Subtact 8 from the stack pointer (and store into the stack pointer) |
-| | [str](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r0, [sp, #4]`<sup>[1](#footnotes)</sup> |store the value located in the stack pointer+4 into the memory position pointed to by reg 3 |
+| | [str](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r0, [sp, #4]`<sup>[1](#footnotes)</sup> |store the value located in the stack pointer+4 into the memory position pointed to by reg 0 |
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` | load reg 3 with the address contained in reg 13, or the program counter reg, + 4 |
 | | [rsbs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)    `r3, r3, #0` | subtracts the value in register 3 from zero and stores result in register 3 |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` |moves the contents of register 3 to register 0 |
