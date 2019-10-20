@@ -31,7 +31,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r3, #0` | sets reg 3 to the value 0, then updates the flags register |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` | sets reg 0 to the value stored in reg 3, then updates the flags register |
 | | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #12` | |
-| | [pop](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABIAJHJ.html)     `{pc}` | |
+| | [pop](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABIAJHJ.html)     `{pc}` |store the last value pushed onto the stack into the program counter  |
 
 ### Footnotes
 
