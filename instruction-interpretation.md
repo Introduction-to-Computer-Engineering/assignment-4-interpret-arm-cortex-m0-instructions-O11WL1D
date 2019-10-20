@@ -20,7 +20,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | | [str](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` |store the value of r3 into the position pointed to by the stack pointer +4|
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` |loads reg 3 with the memory position pointed to by the stack pointer + 4. |
 | | [cmp](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABIHIEI.html)     `r3, #0` |subtracts 0 from r3 and updates flag register to see if the two values are equal to eachother, if the resultant value is greater than zero (positive result) or if the resultant value is less than zero(negative result) |
-| | [ble](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)<sup>[2](#footnotes)</sup>     `.L4` | if the  |
+| | [ble](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)<sup>[2](#footnotes)</sup>     `.L4` | if the z or (n or v) flags are equal to one, then update the program counter to the position where .l4 is located |
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` |loads reg 3 with the memory position pointed to by the stack pointer, + 4 |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` |sets reg 0 to the value stored in reg 3, then updates the flags reg |
 | | [bl](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)      `negate` |write the next instruction address to the position pointed to by negate,essentially a goto statement |
