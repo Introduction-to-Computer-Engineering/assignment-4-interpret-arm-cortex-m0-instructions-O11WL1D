@@ -10,7 +10,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` | load reg 3 with the address contained in reg 13, or the program counter reg, + 4 |
 | | [rsbs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)    `r3, r3, #0` | subtracts the value in register 3 from zero and stores result in register 3 |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` |moves the contents of register 3 to register 0 |
-| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #8` | |
+| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #8` |adds 8 to reg 13 and updates the value of reg 13, or the stack pointer |
 | | [bx](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)      `lr` | |
 | | | |
 | main: | | _Label (corresponds to the address of the first following instruction)_ |
